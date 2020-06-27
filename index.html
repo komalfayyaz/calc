@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+      <CEnter>    <h1> SIMPLE CALCULATOR </h1> </CEnter>
+ <center>   <table style="margin-top: 40px ; padding: 60px; color: cadetblue; width: 30%; height: 40px; background-color: burlywood; ">
+        <tr>
+            <td><button onclick="clearResult()"  class="zero"> <b style="font-size: xx-large; font-family: cursive;"> C </b></button></td>
+            <td colspan="3"><input class="input" type="text" name="" id="result" style="width: 80%; height: 80%; text-align: right; background-color: cornsilk; border-radius: 20px;"></td>
+        </tr>
+
+        <tr>
+            <td><button onclick=" getNumber('*')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;" > x </b></button></td>
+            <td><button onclick=" getNumber('1')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;"> 1 </b></button></td>
+            <td><button onclick=" getNumber('2')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;">2 </b></button></td>
+            <td><button onclick=" getNumber('3')" class="btn"><b style="font-size: xx-large;  font-family: cursive;">3 </b></button></td>
+        </tr>
+        <tr>
+            <td><button onclick=" getNumber('-')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;">- </b></button></td>
+            <td><button onclick=" getNumber('4')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;"> 4 </b></button></td>
+            <td><button onclick=" getNumber('5')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;">5 </b></button></td>
+            <td><button  onclick=" getNumber('6')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;">6 </b></button></td>
+        </tr>
+        <tr>
+            <td><button onclick=" getNumber('/')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;">/ </b></button></td>
+            <td><button onclick=" getNumber('7')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;"> 7 </b></button></td>
+            <td><button onclick=" getNumber('8')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;"> 8 </b></button></td>
+            <td><button onclick=" getNumber('9')" class="btn"> <b style="font-size: xx-large; font-family: cursive;"> 9 </b></button></td>
+        </tr>
+        <tr>
+            <td><button onclick=" getNumber('+')" class="btn"> <b style="font-size: xx-large;  font-family: cursive;"> + </b></button></td>
+            <td><button  onclick=" getNumber('.')" class="dot"> <b style="font-size: xx-large;  font-family: cursive;"> . </b></button></td>
+            <td><button  onclick=" getNumber('0')"class="zero"> <b style="font-size: xx-large;  font-family: cursive;"> 0 </b></button></td>
+            <td><button onclick=" getResult()" class="equal"> <b style="font-size: xx-large;  font-family: cursive;"> = </b></button></td>
+        </tr>
+
+
+    </table>  </div> </center>
+
+</body>
+<script src="app.js"></script>
+</html>

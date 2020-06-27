@@ -1,0 +1,87 @@
+table tr td  {
+    border-style: solid;
+    box-sizing: border-box;
+        width: 60px;
+    height: 90px;
+    text-align: center;
+}  
+.btn {
+        border-radius: 30%;
+        margin: 10px;
+        cursor: pointer;    
+        font-size: xx-large;
+        outline: none;
+        width: 50px;
+        border: none;
+        background-color: white;
+    
+    }
+    
+    
+        .zero {
+            border-radius: 30%;
+            margin: 10px;
+            cursor: pointer;    
+            font-size: xx-large;
+            outline: none;
+            width: 50px;
+            border: none;
+            background-color: white;
+        }
+
+        .equal{
+            width: 50px;
+            margin: 10px;
+            border-radius: 30%;
+            cursor: pointer;
+            font-size: xx-large ;
+            outline: none;
+            border: none;
+            background-color:white;
+        }
+
+        .input{
+            border: 2px solid gray;
+            padding : 20px ;
+            width: 200px;
+            height: 2px;
+            font-size: xx-large;
+            text-align: right;
+              }
+        
+            .input1{
+                border: 2px solid gray;
+                padding: 20px;
+                width: 200px;
+                height: 2px;
+                font-size: xx-large;
+                text-align: right;
+                
+                
+                
+            }
+            :hover.btn{
+                color: red;
+            }
+            :hover.zero{
+                color: red;
+            }
+            :hover.equals{
+                color: red;
+            }
+            .dot{
+                border-radius: 30%;
+                margin: 10px;
+                cursor: pointer;    
+                font-size: xx-large;
+                width: 50px;
+                outline: none;
+                border: none;
+                background-color: white;
+            }
+            
+            :hover.dot{
+                color: red;
+            }
+            
+            
